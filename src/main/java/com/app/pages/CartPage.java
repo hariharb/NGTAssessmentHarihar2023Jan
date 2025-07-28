@@ -30,9 +30,9 @@ String rootFolder1=System.getProperty("user.dir");
 		driver.findElement(By.id("mobileNumberPass")).sendKeys(propObj.getProperty("EmailId"));
 		driver.findElement(By.xpath("//input[@type=\"password\"]")).sendKeys(propObj.getProperty("Password"));
 		driver.findElement(By.xpath("//button[@class=\"btn primary  lg block submitButton\"]")).click();
-		Thread.sleep(31000);
-		driver.findElement(By.xpath("//button[@class=\"btn primary  lg block submitButton\"]")).click();
-		Thread.sleep(5000);
+		//Thread.sleep(31000);
+		//driver.findElement(By.xpath("//button[@class=\"btn primary  lg block submitButton\"]")).click();
+		//Thread.sleep(5000);
 		
 		
 	}
